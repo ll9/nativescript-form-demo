@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     async openDateModal() {
-        this.birthdate = await Service.getDate();
+      this.birthdate = await Service.getDate();
     }
   }
 };
