@@ -3,6 +3,7 @@
         <ActionBar title="Welcome to NativeScript-Vue!"/>
         <StackLayout>
             <TextField v-model="birthdate" hint="birthdate" @tap="openDateModal"></TextField>
+            <TextField v-model="num" hint="num" keyboardType="number"></TextField>
         </StackLayout>
     </Page>
 </template>
